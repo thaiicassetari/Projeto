@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:  #6e6d69;
+}
+a{ /* links */
+    text-decoration: none;
+    padding: 40px;
+}
+a:visited, a:link{
+    color: #e2f3e7
+} /* links */
+h1{
+    text-align: center;
+    font: bold 80px serif;
+}
+header{ /**/
+    margin: 20px;
+    width: 1500px;
+    height: 100px;
+}
+.menu{ /*menu */
+    font: bold 15px serif;
+    text-align: center;
+    width:1500px;
+    height: 20px;
+    padding: 5px 10px;
+    margin: 15px;
+}
+
+.livre{ /*meio sup */
+    border: 2px rgba(37, 165, 69, 0.829) solid;
+    width: 795px;
+    height: 150px;
+    padding: 20px;
+    margin: 20px 20px;
+    text-align: center center;
+}
+.livre1{
+    font-family: bold serif;
+    color: rgb(12, 12, 12);
+    font-size: 50px;
+
+}
+.ocupada{ /*meio inf */
+    border: 2px rgb(158, 21, 21) solid;
+    width: 795px;
+    height: 150px;
+    padding: 20px;
+    margin: 30px 20px;
+    text-align: center center;
+}
+.ocupada1{
+    font-family: bold serif;
+    color: rgb(12, 12, 12);
+    font-size: 50px;
+
+}
+.entrada{/*caixa relatorio*/
+    background: white;
+    width: 860px;
+    padding: 15px;
+    padding: 30px 15px;
+    margin: 20px 50px 20px 303px;
+    text-align: center;
+    
+}
+.formulario{
+    text-align: center;
+    border: double rgb(87, 83, 83) 2px;
+    padding: 15px;
+    font: bold 20px serf;
+}
+.formulario2{
+    text-align: center;
+    border: double rgb(87, 83, 83) 2px;
+    padding: 30px;
+    font: bold 20px serf;
+}
+.bsaida{
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px;
+    background: rgb(119, 141, 23);
+    color: white;
+}
+.t1{
+    border:rgba(104, 100, 104, 0.26) 3px solid;
+    text-align: center;
+    padding: 40px 40px;
+}
+th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 7px;
+    text-align: left;
+}
+tr:nth-child(even) {
+    background-color: #cac1c1;
+}
+.clear{
+    clear:both;
+}
